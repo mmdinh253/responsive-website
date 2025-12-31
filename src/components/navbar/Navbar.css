@@ -1,0 +1,31 @@
+nav {
+    width: 100%;
+    /* background: #333; */
+    color: #fff;
+    padding: 4px 0;
+    position: fixed;
+
+    /* Aligning title and nav links */
+    top: 0;
+    left: 0;
+    display: flex; /* align the content side-by-side*/
+    align-items: center; 
+    justify-content: space-between; /* logo on left and text in right*/
+    z-index: 10; /* overlap all the elements on the webpage when scorlling*/
+}
+
+.logo {
+    width: 180px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none; /* gets rid of listing */
+    margin: 5px 20px; /* spacing between the links */
+    font-size: 16px;
+}
+
+.dark-nav {
+    background: #212EA0;
+    transition: 0.5s;
+}
